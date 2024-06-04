@@ -1,0 +1,67 @@
+.box {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.box2 {
+  display: flex;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.all-products-container {
+  flex: 1;
+}
+
+.products-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.no-products-view {
+  text-align: center;
+}
+
+.no-products-img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.no-products-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.no-products-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-failure-img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.product-failure-heading-text {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.products-failure-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}

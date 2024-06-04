@@ -1,0 +1,131 @@
+.product-item-details-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.product-details-success-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-details-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.product {
+  text-align: left;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.price-details {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.product-description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #606060;
+}
+
+.skills-container,
+.life-at-company-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.skills-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skills-container img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.life-at-company-container img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.similar-products-heading {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.similar-products-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.similar-products-list li {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.products-failure-img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.product-failure-heading-text {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.products-failure-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
